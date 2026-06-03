@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+*.jsonl
+.tox/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Build
+build/
+dist/
